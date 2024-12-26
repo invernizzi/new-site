@@ -8,4 +8,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     // Enable Vue to support Vue components.
     integrations: [vue(), tailwind()],
+    site: 'https://invernizzi.github.io',
+    base: 'new-site',
 });
+
